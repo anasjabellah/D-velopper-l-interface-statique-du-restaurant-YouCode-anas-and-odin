@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,100;1,500&family=Murecho:wght@100;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left{
+    width: 70%;
+    height: 100%;
+    background-image: url("../imags-login/pexels-mister-mister-3434523.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-ops{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #26547cb4 0%, #26547cb3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header-left-content{
+    width: 50%;
+    height: 70%;
+}
+
+
+.header-left-content form{
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.header-left-content form input{
+    padding: 20px;
+    margin: 0 0 20px 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gainsboro;
+    background-color: transparent;
+    color: white;
+    transition: border 1s;
+}
+
+.header-left-content form input:focus{
+    border: 1px solid white;
+}
+
+.header-left-content form input:last-child{
+    width: 200px;
+    padding: 15px 20px ;
+    color: white;
+    margin: 30px auto;
+    outline: none;
+    border: 1px solid #ffd166;
+    text-transform: capitalize;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    background-color: #ffd166;
+}
+
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.logo {
+    width: 53%;
+    height: 252px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.header-reg{
+    width: 30%;
+    height: 100vh;
+    background-color: #ffd166;
+    display: flex;
+    align-items: center;
+}
+
+.header-reg-div{
+    margin-left: -53%;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+    .header-left{
+        width: 100%;
+    }
+
+    
+    .header-left-content{
+        width: 90%;
+        height: 70%;
+    }
+    
+    
+    .header-reg{
+        width: 0%;
+    }
+
+    .header-reg-div{
+        margin-left: -53%;
+        display: none;
+    }
+}

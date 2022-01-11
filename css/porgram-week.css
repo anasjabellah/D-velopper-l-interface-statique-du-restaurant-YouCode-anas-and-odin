@@ -1,0 +1,447 @@
+
+.nav-bar-top{
+    display: none;
+}
+
+/* header  */
+header{
+    width: 100%;
+    height: 40vh;
+    background: url("../images/pexels-mister-mister-3434523.jpg");
+    background-position: top;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.content-header{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #26547cfd 0%, #26547cb4 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+}
+
+
+
+
+.content-header-bottom{
+    
+    width: 55%;
+    height: 100%;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-header-bottom p{
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: 5px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.content-header-bottom p:last-child{
+    color: #FFD166;
+}
+
+
+
+.content-header-top-2{
+    position: absolute;
+    right: 597px;
+    top: -65px;
+    width: 0px;
+    height: 0;
+    animation: anas 5s ease-in-out infinite;
+}
+
+
+@keyframes anas {
+    0%{
+        transform: translate(0px , 0px);
+    }
+    50%{
+        transform: translate(0px , 50px);
+    }
+    100%{
+        transform: translate(0px , 0);
+    }
+}
+
+
+
+/* end header  */
+
+
+
+/* start content week */
+
+.cart-weeks{
+    width: 100%;
+    height: auto;
+    margin: 20px auto 100px ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.cart-week{
+    width: 450px;
+    height: 120px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+
+}
+
+.cart-week a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-week-image{
+    width: 20%;
+    height: 60%;
+}
+
+.cart-week-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.cart-week-content{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-week-content p{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #26547C;
+}
+
+/* end  content week */
+
+
+@media only screen and (min-width: 700px) and (max-width : 1397px) {
+
+    
+    header{
+        overflow: hidden;
+    }
+
+    .content-header-top-2{
+        position: absolute;
+        right: 373px;
+        top: -65px;
+        width: 0px;
+        height: 0;
+        animation: anas 5s ease-in-out infinite;
+    }
+    
+    
+    @keyframes anas {
+        0%{
+            transform: translate(0px , 0px);
+        }
+        50%{
+            transform: translate(0px , 50px);
+        } 
+        100%{
+            transform: translate(0px , 0);
+        }
+    }
+
+
+    .content-header-bottom {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .cart-week-content p{
+        font-size: 35px;
+        text-transform: capitalize;
+        color: #26547C;
+    }
+    
+    
+    
+    /* end header  */
+    
+    
+    
+    .cart-week-image img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cart-week-content{
+        width: 40%;
+
+    }
+    .cart-week-content p{
+        font-size: 25px;
+    }
+
+    .cart-week{
+        width: 350px;
+        height: 130px;
+    }
+    
+    /* end  content week */
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+
+    .nav-bar-top{
+        width: 100%;
+        height: 70px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background-color: white;
+    }
+
+    .nav-bar-top h1{
+        font-size: 30px;
+        color: #26547C;
+    }
+
+    /* header  */
+    header{
+        width: 100%;
+        height: 40vh;
+        background: url("../images/pexels-mister-mister-3434523.jpg");
+        background-position: top;
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .content-header{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(90deg, #26547cfd 0%, #26547cb4 100%);
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+
+
+    .content-header-bottom{
+        width: 100%;
+        height: 100%;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+
+    .content-header-bottom p{
+        font-size: 35px;
+        color: white;
+        font-family: 'Pacifico', cursive;
+    }
+
+
+
+    .content-header-top-2{
+        position: absolute;
+        right: 90px;
+        top: -72px;
+        width: 250px;
+        height: 250px;
+        animation: anas 5s ease-in-out infinite;
+    }
+
+
+    @keyframes anas {
+        0%{
+            transform: translate(0px , 0px);
+        }
+        50%{
+            transform: translate(0px , 20px);
+        }
+        100%{
+            transform: translate(0px , 0);
+        }
+    }
+
+
+
+    /* end header  */
+
+    .cart-weeks{
+        width: 100%;
+        height: auto;
+        margin: 10px auto 100px ;
+        padding: 10px;
+    }
+
+    .cart-week{
+        width: 100%;
+        height: 130px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: white;
+        border-radius: 12px;
+        margin: 30px 0;
+    }
+
+    .cart-week a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cart-week-image{
+        width: 30%;
+        height: 80%;
+    }
+
+    .cart-week-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .cart-week-content{
+        width: 60%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart-week-content p{
+        font-size: 35px;
+        text-transform: capitalize;
+        color: #26547C;
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+
+    .content-header-bottom p{
+        font-size: 25px;
+        color: white;
+        font-family: 'Pacifico', cursive;
+    }
+
+
+    .cart-week-image{
+        width: 40%;
+        height: 80%;
+    }
+
+    .cart-week-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .cart-week-content{
+        width: 60%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart-week-content p{
+        font-size: 25px;
+        text-transform: capitalize;
+        color: #26547C;
+    }
+
+    .cart-week{
+        width: 100%;
+        height: 110px;
+        margin: 10px;
+    }
+
+    .cart-week-image{
+        width: 20%;
+        height: 80%;
+    }
+
+
+
+}
+
+@media only screen and (max-width:469px) {
+    .content-header-top-2 {
+        position: absolute;
+        right: -30px;
+        top: -90px;
+    }
+
+    .nav-bar-top h1 {
+        font-size: 25px;
+    }
+
+    .cart-week-content p{
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+
+
+    .nav-bar-top h1 {
+        font-size: 20px;
+    }
+
+    .content-header-top-2{
+        display: none;
+    }
+
+    .cart-week-content p{
+        font-size: 20px;
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width : 700px) {
+    
+    .cart-week{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+}

@@ -1,0 +1,169 @@
+
+.btn-1 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+    background-color: #FFD166;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+
+.btn-1:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : #fff;
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+}
+
+.btn-1 a {
+    padding: 15px 25px;
+}
+
+
+.nav-bar{
+    display: none;
+}
+
+.title-langauge{
+    font-size: 30px ;
+    color: #26547C;
+}
+
+
+.change-langauge{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-image , .cart-langauge{
+    width: 50%;
+}
+
+
+.cart-langauge{
+    margin-top: 80px;
+}
+
+
+.change-langauge h1{
+    color: #26547C;
+    font-size:35px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+.language-input{
+    margin: 20px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.language-input input{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.language-input label{
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #26547C;
+}
+
+
+
+.cart-image img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+    body{
+        margin-top: 90px;
+    }
+
+    .nav-bar{
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+        top: 0;
+        left: 0;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9;
+    }
+
+    .nav-bar h1{
+        font-size: 39px;
+        color: #26547C;
+        text-transform: capitalize;
+    }
+    
+
+    .change-langauge{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .cart-image , .cart-langauge{
+        width: 100%;
+    }
+
+
+    .cart-image img{
+        width: 100%;
+        height: 400px;
+    }
+
+
+    .change-langauge h1{
+        color: #26547C;
+        font-size:25px;
+        text-transform: capitalize;
+    }
+
+
+    .language-input{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .language-input input{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .language-input label{
+        font-size: 19px;
+        text-transform: capitalize;
+        font-weight: 800;
+        color: #26547C;
+    }
+
+}

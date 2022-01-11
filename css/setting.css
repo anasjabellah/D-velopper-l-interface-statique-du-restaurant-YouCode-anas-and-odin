@@ -1,0 +1,241 @@
+.btn-1 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+    background-color: #FFD166;
+    border-radius: 10px;
+}
+
+
+.btn-1:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : #fff;
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+}
+
+.btn-1 a {
+    padding: 15px 25px;
+}
+
+
+.title-settings{
+    margin: 40px;
+}
+
+.logo-title{
+    margin: 40px;
+    font-size: 20px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 10px;
+    margin: 5px ;
+    margin-left: 145px
+}
+
+ul li span{
+    padding: 10px;
+}
+
+
+.setting button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px ;
+    background-color: white;
+    border-radius: 20px;
+    border: none;   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 20px;
+}
+
+.setting button i{
+    margin-right: 10px;
+}
+
+.setting button span{
+    color: #26547C;
+    text-transform: capitalize;
+}
+
+
+.notification{
+    display: flex;
+}
+
+
+
+.switch {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+  .switch div {
+    position: relative;
+    display: block;
+    background: #eee;
+    width: 50px;
+    border-radius: 50px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+  
+  .fa-adjust {
+    transform: rotate(180deg);
+}
+  
+  .switch input {
+    display: none;
+}
+  
+  .slider {
+      
+    margin-top: 4px;
+    background-color: #999;
+    transition: 0.4s;
+    border-radius: 34px;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    position: relative;
+}
+  
+  input:checked + .slider {
+    transform: translateX(22px);
+    background-color: rgb(103, 103, 213);
+} 
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+    .content-right{
+        padding: 20px;
+        margin-bottom: 100px ;
+    }
+
+    .nav-bar-top{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-bar-top a {
+        display: flex;
+        align-items: center;
+        color: #26547C;
+        font-size: 20px;
+    }
+
+    .nav-bar-top a i{
+        font-size: 25px;
+        margin-right: 15px;
+    }
+
+    .title-settings{
+        margin: 30px 0 ;
+    }
+
+    .title-settings h1{
+        font-size: 40px;
+        letter-spacing: 1px;
+        color: #26547C;
+    }
+
+    .logo-title{
+        margin: 0px;
+        font-size: 20px;
+    }
+
+        ul li {
+            padding: 10px;
+            margin: 5px;
+            margin-left: 14px;
+        }
+
+    .account{
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logo-title{
+        color: #26547C;
+        font-size: 15px;
+        padding: 5px 0;
+        border-bottom: 2px solid rgb(208, 208, 208);
+    }
+
+    .logo-title i{
+        margin-right: 5px ;
+        font-size: 23px;
+    }
+
+    .logo-title span{
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .account ul{
+        list-style: none;
+    }
+
+    
+    .account ul li a{
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: gray;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+    }
+
+    .account ul li i{
+        font-size: 20px;
+    }
+
+    .setting button{
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px ;
+        background-color: white;
+        border-radius: 20px;
+        border: none;   
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        font-size: 20px;
+    }
+
+    .setting button i{
+        margin-right: 10px;
+    }
+
+    .setting button span{
+        color: #26547C;
+        text-transform: capitalize;
+    }
+
+
+}

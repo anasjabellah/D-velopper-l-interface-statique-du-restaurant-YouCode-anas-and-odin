@@ -1,0 +1,275 @@
+body{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 30vh;
+    background: url("../images/pexels-mister-mister-3434523.jpg");
+    background-position: top;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.content-header{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #26547c7a 0%, #26547cb4 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row-reverse;
+}
+
+
+
+
+.content-header-bottom{
+    width: 100%;
+    height: 100%;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-header-bottom p{
+    font-size: 40px;
+    color: white;
+}
+
+.content-header-bottom p:first-child{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+/* end header  */
+
+.cart-link{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.cart{
+    width: 48%;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.cart a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-1{
+    background-color: #f8cb18;
+}
+.cart-2{
+    background-color: #EC255A;
+}
+
+.cart-icon{
+    width: 60px;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.558);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.cart-icon i{
+    font-size: 30px;
+    color: white;
+}
+
+.cart-content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.cart-content .cart-content-p{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.div-button-add{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.btn-1 {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    background-color: #FFD166;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 15px 20px;
+
+    margin-bottom: 60px;
+}
+
+
+.btn-1:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : #fff;
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+}
+
+.btn-1 a {
+    padding: 15px 25px;
+}
+
+.btn-1:hover:before {
+    left:95%;
+}
+
+
+
+.content-cart-edit{
+    width: 70%;
+    height: 300px;
+    margin: 40px auto;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.content-cart-edit-img{
+    width: 20%;
+    margin-right: 70px;
+}
+
+
+.imag-user  img{
+    width: 100%;
+    height: 140px;
+}
+
+.content-cart-edit-info{
+    width: 60%;
+}
+
+.content-cart-edit-info ul{
+    margin: 20px 0;
+    list-style: none;
+}
+
+
+.content-cart-edit-info ul li span{
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.content-cart-edit-info ul  li {
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    body{
+        margin-bottom: 100px;
+    }
+    /* end header  */
+
+    .cart-link{
+        margin: 20px  0;
+        height: auto;
+        flex-direction: column;
+    }
+
+
+    .cart{
+        width: 90%;
+        height: 120px;
+        margin: 10px auto;
+    }
+
+
+    .list-days {
+        padding: 20px;
+    }
+
+
+    .name-day{
+        font-size: 25px;
+    }
+    
+    .content-day{
+        height: auto;
+        padding: 20px;
+    }
+    
+    .content-day-imag {
+        width: 480px;
+        height: 173px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+    .content-day {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .content-day-imag {
+        width: 100%;
+        height: 213px;
+        margin-bottom: 20px;
+    }
+
+}
